@@ -19,6 +19,7 @@ class ViewController: UIViewController ,XMLParserDelegate{
         //        parser.delegate = self
         //        parser.parse()
     
+        //xml parser swift 3 with sub elements
         let headers = [
             "cache-control": "no-cache",
             "postman-token": "e8419b0d-9a14-6aaa-ecfb-b3d266143b36"
@@ -52,7 +53,7 @@ class ViewController: UIViewController ,XMLParserDelegate{
                         print(child.attributes)
                         //print(child.value!)
                     }
-              
+                   print(xmlDoc.root["channel"]["item"].children[2].string)
                     print(xmlDoc.root["channel"]["item"]["title"].count)
                     
                     if let cats = xmlDoc.root["channel"]["item"].all{
