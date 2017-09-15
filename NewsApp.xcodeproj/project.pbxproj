@@ -14,6 +14,9 @@
 		8FF66FB61F6BA30D008E2A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF66FB41F6BA30D008E2A89 /* LaunchScreen.storyboard */; };
 		8FF66FC11F6BA310008E2A89 /* NewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FC01F6BA310008E2A89 /* NewsAppTests.swift */; };
 		8FF66FCC1F6BA312008E2A89 /* NewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FCB1F6BA312008E2A89 /* NewsAppUITests.swift */; };
+		8FF66FDB1F6BA6BA008E2A89 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FDA1F6BA6BA008E2A89 /* Utility.swift */; };
+		8FF66FE31F6BB808008E2A89 /* UtilityUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FE21F6BB808008E2A89 /* UtilityUIColor.swift */; };
+		8FF66FE51F6BB816008E2A89 /* UtilityUIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FE41F6BB816008E2A89 /* UtilityUIFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		8FF66FC71F6BA312008E2A89 /* NewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF66FCB1F6BA312008E2A89 /* NewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITests.swift; sourceTree = "<group>"; };
 		8FF66FCD1F6BA312008E2A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF66FDA1F6BA6BA008E2A89 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		8FF66FE21F6BB808008E2A89 /* UtilityUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityUIColor.swift; sourceTree = "<group>"; };
+		8FF66FE41F6BB816008E2A89 /* UtilityUIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityUIFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		8FF66FAA1F6BA307008E2A89 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				8FF66FD91F6BA6A1008E2A89 /* UtiltyClass */,
 				8FF66FAB1F6BA308008E2A89 /* AppDelegate.swift */,
 				8FF66FAD1F6BA309008E2A89 /* ViewController.swift */,
 				8FF66FAF1F6BA30A008E2A89 /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				8FF66FCD1F6BA312008E2A89 /* Info.plist */,
 			);
 			path = NewsAppUITests;
+			sourceTree = "<group>";
+		};
+		8FF66FD91F6BA6A1008E2A89 /* UtiltyClass */ = {
+			isa = PBXGroup;
+			children = (
+				8FF66FDA1F6BA6BA008E2A89 /* Utility.swift */,
+				8FF66FE21F6BB808008E2A89 /* UtilityUIColor.swift */,
+				8FF66FE41F6BB816008E2A89 /* UtilityUIFont.swift */,
+			);
+			path = UtiltyClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF66FE31F6BB808008E2A89 /* UtilityUIColor.swift in Sources */,
 				8FF66FAE1F6BA309008E2A89 /* ViewController.swift in Sources */,
+				8FF66FE51F6BB816008E2A89 /* UtilityUIFont.swift in Sources */,
 				8FF66FAC1F6BA308008E2A89 /* AppDelegate.swift in Sources */,
+				8FF66FDB1F6BA6BA008E2A89 /* Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
