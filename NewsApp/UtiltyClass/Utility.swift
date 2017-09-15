@@ -8,6 +8,10 @@
 
 import UIKit
 
+struct BASEURLPath {
+    static let Welcome = "kWelcomeNotif"
+}
+
 class Utility: NSObject {
     var sharedInstance = Utility()
     
@@ -55,6 +59,5 @@ class Utility: NSObject {
         }
         return false
     }
-    
     
 }

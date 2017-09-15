@@ -17,6 +17,12 @@
 		8FF66FDB1F6BA6BA008E2A89 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FDA1F6BA6BA008E2A89 /* Utility.swift */; };
 		8FF66FE31F6BB808008E2A89 /* UtilityUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FE21F6BB808008E2A89 /* UtilityUIColor.swift */; };
 		8FF66FE51F6BB816008E2A89 /* UtilityUIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FE41F6BB816008E2A89 /* UtilityUIFont.swift */; };
+		8FF66FEB1F6BEA4E008E2A89 /* 9b29cbb16c31a3afd5d304c0d8d8a57c.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF66FEA1F6BEA4E008E2A89 /* 9b29cbb16c31a3afd5d304c0d8d8a57c.png */; };
+		8FF66FF51F6BFF37008E2A89 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FEF1F6BFF37008E2A89 /* Document.swift */; };
+		8FF66FF61F6BFF37008E2A89 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FF01F6BFF37008E2A89 /* Element.swift */; };
+		8FF66FF71F6BFF37008E2A89 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FF11F6BFF37008E2A89 /* Error.swift */; };
+		8FF66FF91F6BFF37008E2A89 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FF31F6BFF37008E2A89 /* Options.swift */; };
+		8FF66FFA1F6BFF37008E2A89 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF66FF41F6BFF37008E2A89 /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,15 @@
 		8FF66FDA1F6BA6BA008E2A89 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		8FF66FE21F6BB808008E2A89 /* UtilityUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityUIColor.swift; sourceTree = "<group>"; };
 		8FF66FE41F6BB816008E2A89 /* UtilityUIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityUIFont.swift; sourceTree = "<group>"; };
+		8FF66FE81F6BD65B008E2A89 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		8FF66FE91F6BDACF008E2A89 /* NewsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		8FF66FEA1F6BEA4E008E2A89 /* 9b29cbb16c31a3afd5d304c0d8d8a57c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9b29cbb16c31a3afd5d304c0d8d8a57c.png; sourceTree = "<group>"; };
+		8FF66FEE1F6BFF37008E2A89 /* AEXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEXML.h; sourceTree = "<group>"; };
+		8FF66FEF1F6BFF37008E2A89 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		8FF66FF01F6BFF37008E2A89 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		8FF66FF11F6BFF37008E2A89 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		8FF66FF31F6BFF37008E2A89 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		8FF66FF41F6BFF37008E2A89 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,8 @@
 		8FF66FAA1F6BA307008E2A89 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				8FF66FED1F6BFF37008E2A89 /* AEXMLparser */,
+				8FF66FEA1F6BEA4E008E2A89 /* 9b29cbb16c31a3afd5d304c0d8d8a57c.png */,
 				8FF66FD91F6BA6A1008E2A89 /* UtiltyClass */,
 				8FF66FAB1F6BA308008E2A89 /* AppDelegate.swift */,
 				8FF66FAD1F6BA309008E2A89 /* ViewController.swift */,
@@ -110,6 +127,7 @@
 				8FF66FB21F6BA30C008E2A89 /* Assets.xcassets */,
 				8FF66FB41F6BA30D008E2A89 /* LaunchScreen.storyboard */,
 				8FF66FB71F6BA30E008E2A89 /* Info.plist */,
+				8FF66FE91F6BDACF008E2A89 /* NewsApp-Bridging-Header.h */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -138,8 +156,23 @@
 				8FF66FDA1F6BA6BA008E2A89 /* Utility.swift */,
 				8FF66FE21F6BB808008E2A89 /* UtilityUIColor.swift */,
 				8FF66FE41F6BB816008E2A89 /* UtilityUIFont.swift */,
+				8FF66FE81F6BD65B008E2A89 /* Constant.h */,
 			);
 			path = UtiltyClass;
+			sourceTree = "<group>";
+		};
+		8FF66FED1F6BFF37008E2A89 /* AEXMLparser */ = {
+			isa = PBXGroup;
+			children = (
+				8FF66FEE1F6BFF37008E2A89 /* AEXML.h */,
+				8FF66FEF1F6BFF37008E2A89 /* Document.swift */,
+				8FF66FF01F6BFF37008E2A89 /* Element.swift */,
+				8FF66FF11F6BFF37008E2A89 /* Error.swift */,
+				8FF66FF31F6BFF37008E2A89 /* Options.swift */,
+				8FF66FF41F6BFF37008E2A89 /* Parser.swift */,
+			);
+			name = AEXMLparser;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF66FEB1F6BEA4E008E2A89 /* 9b29cbb16c31a3afd5d304c0d8d8a57c.png in Resources */,
 				8FF66FB61F6BA30D008E2A89 /* LaunchScreen.storyboard in Resources */,
 				8FF66FB31F6BA30C008E2A89 /* Assets.xcassets in Resources */,
 				8FF66FB11F6BA30A008E2A89 /* Main.storyboard in Resources */,
@@ -279,10 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF66FF71F6BFF37008E2A89 /* Error.swift in Sources */,
 				8FF66FE31F6BB808008E2A89 /* UtilityUIColor.swift in Sources */,
+				8FF66FFA1F6BFF37008E2A89 /* Parser.swift in Sources */,
 				8FF66FAE1F6BA309008E2A89 /* ViewController.swift in Sources */,
+				8FF66FF51F6BFF37008E2A89 /* Document.swift in Sources */,
+				8FF66FF91F6BFF37008E2A89 /* Options.swift in Sources */,
 				8FF66FE51F6BB816008E2A89 /* UtilityUIFont.swift in Sources */,
 				8FF66FAC1F6BA308008E2A89 /* AppDelegate.swift in Sources */,
+				8FF66FF61F6BFF37008E2A89 /* Element.swift in Sources */,
 				8FF66FDB1F6BA6BA008E2A89 /* Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webmyne.NewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/prashant/Desktop/NewsApp/NewsApp/NewsApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -455,6 +495,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webmyne.NewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/prashant/Desktop/NewsApp/NewsApp/NewsApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

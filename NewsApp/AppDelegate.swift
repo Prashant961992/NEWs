@@ -8,6 +8,9 @@
 
 import UIKit
 
+//https://github.com/y-hryk/StretchHeader
+//https://github.com/tadija/AEXML
+//http://www.bollywoodhungama.com/rss-feed/
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
